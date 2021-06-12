@@ -1,19 +1,19 @@
-$primary: #3F51B5;
+$primary: #147c61;
 $dark-primary: #303F9F;
-$light-primary: #C5CAE9;
+$light-primary: #24316f;
 $text: #FFFFFF;
 $primary-text: #212121;
-$secondary-text: #757575;
-$accent: #FF4081;
+$secondary-text: #24316f;
+$accent: #dc3c4d;
 
 
-.hero-table { 
+.hero-table {
   margin-left: 10%;
   margin-right: 10%;
 }
-  
 
- 
+
+
 
 
 section {
@@ -187,7 +187,7 @@ blockquote {
 			&:nth-child(odd) {
 
 				.timeline-content {
-					
+
 					&::after {
 						content: '';
 						position: absolute;
@@ -204,5 +204,5 @@ blockquote {
 			}
 		}
 	}
-	
+
 }

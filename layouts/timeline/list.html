@@ -3,7 +3,8 @@
 
 
 <main class="posts">
-    <h1>{{ .Title }}</h1>
+    <h1>Línea de tiempo OLES</h1>
+    <h2>Descripción</h2>
 
     {{ if .Content }}
     <div class="content">{{ .Content }}</div>
@@ -11,7 +12,7 @@
 
     <section class="timeline">
       <div class="container" style="text-align: left!important">
-        {{ range .Pages.ByDate.Reverse  }} 
+        {{ range .Pages.ByDate.Reverse  }}
 
         <div class="timeline-item">
             <div class="timeline-img"></div>
@@ -23,10 +24,10 @@
                     {{.Params.Eventname}}<br>
                     {{.Params.Eventlocation}}
 
-                </p> 
+                </p>
             </div>
-        </div>  
-        {{ end }}   
+        </div>
+        {{ end }}
     </div>
 </section>
 

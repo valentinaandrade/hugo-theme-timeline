@@ -1,0 +1,3 @@
+[submodule "hugo-theme-timeline"]
+	path = hugo-theme-timeline
+	url = https://github.com/s4n7h0/hugo-theme-timeline

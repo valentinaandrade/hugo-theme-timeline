@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/Valentina Andrade/Documents/GitHub/coes/hugo-theme-timeline",
+	"sourceRoot": "C:/Users/Valentina Andrade/Documents/GitHub/coes/oles-project/timeline-oles",
 	"sources": [
 		"assets/scss/main.scss",
 		"assets/scss/_normalize.scss",
